@@ -1,0 +1,353 @@
+:root{
+/* Primary Colours */
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+
+
+/* Accent Colours */
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+
+
+/* Neutral Colours */
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.productive .wavy-top .mobile-view {
+    display: none;
+}
+
+/* --------------------- Header --------------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+header .header-logo img {
+    width: 100%;
+}
+
+.nav-links {
+    width: 20%;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+header .nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* .nav-links ul li{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+} */
+
+.nav-links ul li a {
+    text-decoration: none;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+
+/* ---------------------- Header End ------------------------- */
+
+/* ----------------------- Access Section ------------------- */
+
+.access {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100vw; */
+    margin: 0 40px 0 60px;
+    /* background-color: var(--Light-Gray); */
+    /* overflow: hidden; */
+}
+
+.access .text1{
+    width: 30vw;
+}
+
+.access .text1 .registration {
+    display: flex;
+    margin-top: 20px;
+}
+
+.access .text1 .registration .input-field #mail1 {
+    border-radius: 3px;
+    /* box-sizing: border-box; */
+    /* border-color: red; */
+    border: 1px solid var(--Very-Dark-Blue);
+    padding: 7px 100px 7px 7px;
+    font-size: 11px;
+    /* text-align: left; */
+}
+
+.access .text1 .registration .input-field #mail1:focus {
+    /* color: solid hsl(170, 45%, 43%); */
+    color: black;
+}
+
+.access .text1 .registration .get-started {
+    margin-left: 10px;
+}
+
+.access .text1 .registration .get-started #start-up {
+    background-color: var(--Bright-Blue);
+    border: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 9px;
+    color: white;
+    cursor: pointer;
+}
+
+.access .image1{
+    width: 30vw;
+    padding: 50px 50px;
+    /* overflow: hidden; */
+    /* margin-right: 30px; */
+    /* height: 100px; */
+}
+
+.access .image1 img{
+    width: 100%;
+    /* margin-right: 60px; */
+    /* height: inherit; */
+}
+
+
+
+
+
+/* ----------------------- Access Section End ------------------ */
+
+/* ----------------------- Productive Section ------------------ */
+
+.productive .wavy-top .desktop-view {
+    width: 99.9%;
+    height: 100px;
+    /* overflow: hidden; */
+}
+
+.productive .wavy-top .desktop-view img{
+    width: 100%;
+    height: inherit;
+}
+
+.productive .caption{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8FE;
+}
+
+.productive .caption .text2{
+    width: 30vw;
+    text-align: justify;
+    margin: 40px;
+}
+
+.productive .caption .text2 .workings {
+    /* display: flex; */
+    margin: 10px 0;
+    border-bottom: 2px solid #3DA08F;
+    width: 150px;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+
+.productive .caption .text2 .workings a {
+    display: flex;
+    text-decoration: none;
+}
+
+.productive .caption .text2 .workings .works h1 {
+    font-size: 15px;
+    /* text-decoration: none; */
+    color: #3DA08F;
+}
+
+.productive .caption .text2 .workings .img1 {
+    padding-left: 5px;
+}
+
+.productive .caption .text2 .client-testimony {
+    /* box-sizing: border-box; */
+    /* height: 30vh; */
+    width: 15vw;
+    justify-content: center;
+    /* border-color: var(--Very-Dark-Blue); */
+    background-color: white;
+    border-radius: 10px;
+    /* border-style: var(--Very-Dark-Blue); */
+    padding: 17px;
+}
+
+.productive .caption .text2 .client-testimony .testimony {
+    line-height: 1.5;
+    margin: 7px 0 9px 0;
+}
+
+.productive .caption .text2 .client-testimony .testimony h3 {
+    font-size: 11px;
+}
+
+.productive .caption .text2 .client-testimony .client-info {
+    display: flex;
+    width: 100%;
+    /* height: 50%; */
+}
+
+.productive .caption .text2 .client-testimony .client-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 5px;
+    /* height: inherit; */
+}
+
+.productive .caption .text2 .client-testimony .client-info .testimony {
+    margin: 9px;
+    line-height: 1.5;
+}
+
+.productive .caption .text2 .client-testimony .client-info .testimony h1 {
+    font-size: 10px;
+}
+
+.productive .caption .text2 .client-testimony .client-info .testimony p {
+    font-size: 9px;
+}
+
+.productive .caption .image2 {
+    width: 30vw;
+    padding: 50px 50px;
+    margin: 40px;
+    /* overflow: hidden; */
+}
+
+.productive .caption .image2 img {
+    width: 100%;
+}
+
+/* ----------------------- Productive Section End --------------- */
+
+/* ----------------------- Early Access ------------------------ */
+
+.early-access {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 40px; */
+    background-color: var(--Desaturated-Blue);
+    height: 300px;
+}
+
+.early-access .caption {
+    width: 30vw;
+    margin: 40px;
+}
+
+.early-access .sign-up {
+    width: 30vw;
+    /* display: flex; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.early-access .sign-up .input #mail2 {
+    border-radius: 3px;
+    /* box-sizing: border-box; */
+    /* border-color: red; */
+    border: 1px solid var(--Very-Dark-Blue);
+    padding: 12px 160px 10px 13px;
+    font-size: 13px;
+    /* text-align: left; */
+    /* margin-bottom: 20px; */
+}
+
+/* .early-access .sign-up .get-started-for-free {
+    padding-top: 40px;
+} */
+
+.early-access .sign-up .get-started-free {
+    padding-bottom: 30px;
+}
+
+.early-access .sign-up .get-started-free #sign-up {
+    background-color: var(--Bright-Blue);
+    border: none;
+    padding: 11px 31px 11px 31px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ----------------------- Early Access End ------------------- */
+
+/* ----------------------- Footer ---------------------------- */
+
+footer {
+    background-color: var(--Very-Dark-Blue);
+    height: 300px;
+}
+
+footer .logo {
+    padding: 40px 0 0 40px;
+}
+
+footer .sections {
+    display: flex;
+    padding: 30px 0px 0 40px;
+    /* margin: 40px; */
+    justify-content: space-between;
+}
+
+footer .sections .section-1 .number, footer .sections .section-1 .mail {
+    display: flex;
+    padding-top: 15px;
+}
+
+footer .sections .section-1 .number img, footer .sections .section-1 .mail img {
+    width: 15px;
+}
+
+footer .sections .section-1 .number h1, footer .sections .section-1 .mail h1 {
+    padding-left: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+/* footer .sections .section-2 {
+
+} */
+
+footer .sections .section-4 {
+    width: 10vw;
+    margin-right: 140px;
+}
+
+footer .sections .section-4 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer .sections .section-4 ul li a {
+    text-decoration: none;
+}
+
+/* ----------------------- Footer End ------------------------ */
